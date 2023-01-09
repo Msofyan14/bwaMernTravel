@@ -1,15 +1,14 @@
 import "assets/scss/style.scss";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import LandingPage from "pages/LandingPage";
+// import Button from "elemets/Button";
 
 function App() {
   return (
-    <div>
-      {/* <header className="App-header">
-        <h1 className="btn btn-warning">TESSSSSSS</h1>
-        <h1 className="btn btn-warning">TESSSSSSS</h1>
-        <h1 className="btn btn-warning">TESSSSSSS</h1>
-        <h1 className="btn btn-danger">TESSSSSSS</h1>
-        <h1 className="btn btn-primary">ok</h1>
-      </header> */}
+    <div className="App">
+      <Router>
+        <Route path="/" component={LandingPage}></Route>
+      </Router>
     </div>
   );
 }
