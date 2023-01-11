@@ -39,7 +39,7 @@ $grays: (
 $blue: #0d6efd !default;
 $indigo: #2b4cde !default;
 $purple: #6f42c1 !default;
-$pink: #d63384 !default;
+$pink: #ff498b !default;
 $red: #dc3545 !default;
 $orange: #fd7e14 !default;
 $yellow: #ffc107 !default;
@@ -300,6 +300,7 @@ $cyans: (
 // scss-docs-start theme-color-variables
 $primary: $indigo !default;
 $secondary: $gray-900 !default;
+$secondcolor: $gray-500 !default;
 $success: $green !default;
 $info: $cyan !default;
 $warning: $yellow !default;
@@ -312,6 +313,7 @@ $dark: $gray-900 !default;
 $theme-colors: (
   "primary": $primary,
   "secondary": $secondary,
+  "secondcolor": $secondcolor,
   "success": $success,
   "info": $info,
   "warning": $warning,
@@ -540,9 +542,7 @@ $aspect-ratios: (
 
 // scss-docs-start font-variables
 // stylelint-disable value-keyword-case
-$font-family-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto,
-  "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif,
-  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$font-family-sans-serif: "Poppins", sans-serif !default;
 $font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
   "Liberation Mono", "Courier New", monospace !default;
 // stylelint-enable value-keyword-case
@@ -569,7 +569,7 @@ $line-height-base: 1.5 !default;
 $line-height-sm: 1.25 !default;
 $line-height-lg: 2 !default;
 
-$h1-font-size: $font-size-base * 2.5 !default;
+$h1-font-size: $font-size-base * 2.625 !default;
 $h2-font-size: $font-size-base * 2 !default;
 $h3-font-size: $font-size-base * 1.75 !default;
 $h4-font-size: $font-size-base * 1.5 !default;
