@@ -1,3 +1,4 @@
+@import "colorVariables";
 @import "mixins/banner";
 @include bsBanner("");
 
@@ -207,4 +208,10 @@ section {
       }
     }
   }
+}
+
+.testimonial-hero,
+.testimonial-hero img {
+  width: 365px;
+  height: 500px;
 }

@@ -42,7 +42,7 @@ const Categories = ({ data }) => {
                       >
                         <h5 className="h4">{item.name}</h5>
                       </Button>
-                      <span className="secondcolor">
+                      <span className="text-secondcolor">
                         {item.city}, {item.country}
                       </span>
                     </div>
