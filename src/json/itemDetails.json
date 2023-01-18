@@ -5,15 +5,15 @@
   "imageUrls": [
     {
       "_id": "asd1293uasdads1",
-      "url": "/images/img-featured-1.jpg"
+      "url": "/images/image-featured-1.jpg"
     },
     {
       "_id": "asd1293uasdads1",
-      "url": "/images/img-featured-2.jpg"
+      "url": "/images/image-featured-2.jpg"
     },
     {
       "_id": "asd1293uasdads1",
-      "url": "/images/img-featured-3.jpg"
+      "url": "/images/image-featured-3.jpg"
     }
   ],
   "country": "Indonesia",
@@ -102,38 +102,37 @@
   "categories": [
     {
       "_id": "asd1293uasdads1",
-      "name": "House with beauty backyard",
+      "name": "Treasure to Choose",
       "items": [
         {
           "_id": "asd1293uasdads1",
-          "name": "PSW Antasari",
+          "name": "Green Lake",
           "imageUrl": "/images/treasure-1.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+
+          "city": "Nature",
           "isPopular": false
         },
         {
           "_id": "asd1293uasdads1",
-          "name": "Kuretakeso",
+          "name": "Dog Clubs",
           "imageUrl": "/images/treasure-2.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+
+          "city": "Pool",
           "isPopular": false
         },
         {
           "_id": "asd1293uasdads1",
-          "name": "Arya Duta",
+          "name": "Labour and wait",
           "imageUrl": "/images/treasure-3.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+
+          "city": "Shoping",
           "isPopular": true
         },
         {
           "_id": "asd1293uasdads1",
-          "name": "Grand Dhika",
+          "name": "Snorkeling",
           "imageUrl": "/images/treasure-4.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "city": "Beach",
           "isPopular": false
         }
       ]

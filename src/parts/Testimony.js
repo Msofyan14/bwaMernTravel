@@ -1,6 +1,6 @@
 import React from "react";
-import Star from "elemets/Star";
-import Button from "elemets/Button";
+import Star from "elements/Star";
+import Button from "elements/Button";
 import Fade from "react-reveal/Fade";
 
 import TestimonyAccent from "assets/images/testimonial-landingpages-frame.jpg";

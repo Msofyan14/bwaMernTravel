@@ -1,4 +1,4 @@
-import Button from "elemets/Button";
+import Button from "elements/Button";
 import React from "react";
 import Fade from "react-reveal/Fade";
 
@@ -44,7 +44,7 @@ const Categories = ({ data }) => {
                             href={`/properties/${item._id}`}
                             className="stretched-link d-block secondcolor "
                           >
-                            <h5 className="h4">{item.name}</h5>
+                            <h5 className="h4 text-secondary">{item.name}</h5>
                           </Button>
                           <span className="text-secondcolor">
                             {item.city}, {item.country}

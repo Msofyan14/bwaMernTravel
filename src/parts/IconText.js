@@ -1,4 +1,4 @@
-import Button from "elemets/Button";
+import Button from "elements/Button";
 import React from "react";
 // import "assets/scss/style.scss";
 

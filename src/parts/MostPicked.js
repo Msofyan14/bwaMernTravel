@@ -1,4 +1,4 @@
-import Button from "elemets/Button";
+import Button from "elements/Button";
 import React from "react";
 import Fade from "react-reveal/Fade";
 
@@ -32,7 +32,7 @@ const MostPicked = (props) => {
                       <Button
                         type="link"
                         className="stretched-link d-block text-white"
-                        href={`/properties/${item.id}`}
+                        href={`/properties/${item._id}`}
                       >
                         <h5>{item.name}</h5>
                       </Button>
