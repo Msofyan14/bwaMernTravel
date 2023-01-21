@@ -5,9 +5,11 @@ import propTypes from "prop-types";
 export default function Button(props) {
   const className = [props.className];
   if (props.isPrimary) className.push("btn-primary");
+  if (props.isLight) className.push("btn-light");
   if (props.isLarge) className.push("btn-lg");
   if (props.isSmall) className.push("btn-sm");
   if (props.hasShadow) className.push("btn-shadow");
+  if (props.isBlock) className.push("d-block");
 
   const onClick = () => {
     if (props.onClick) props.onClick();
@@ -76,6 +78,7 @@ Button.propTypes = {
   isLoading: propTypes.bool,
   isExternal: propTypes.bool,
   isPrimary: propTypes.bool,
+  isLight: propTypes.bool,
   isSmall: propTypes.bool,
   isLarge: propTypes.bool,
   isBlock: propTypes.bool,

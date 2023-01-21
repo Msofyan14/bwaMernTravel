@@ -8,6 +8,7 @@ export default function Number(props) {
 
   const onChange = (e) => {
     let value = String(e.target.value);
+    // console.log(+value);
 
     if (+value <= max && +value >= min) {
       props.onChange({
