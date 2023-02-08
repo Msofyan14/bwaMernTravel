@@ -5,7 +5,7 @@ import InputText from "elements/Form/InputText";
 export default function BookingInformation(props) {
   const { data, ItemDetails, checkout } = props;
 
-  console.log(props.data);
+  console.log(data);
   return (
     <Fade>
       <div className="container" style={{ marginBottom: 30 }}>
@@ -47,7 +47,7 @@ export default function BookingInformation(props) {
               <InputText
                 id="firstName"
                 name="firstName"
-                value={data.firtsName}
+                value={data.firstName}
                 onChange={props.onChange}
               />
 
