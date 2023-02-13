@@ -17,7 +17,7 @@ export default function FeauturedImage({ data }) {
                 <div className="card h-100">
                   <figure className="img-wrapper">
                     <img
-                      className="img-cover"
+                      className="img-fluid"
                       src={`${process.env.REACT_APP_HOST}/${item.imageUrl}`}
                       alt={item._id}
                     />

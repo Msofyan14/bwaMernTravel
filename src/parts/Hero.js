@@ -80,7 +80,14 @@ const Hero = (props) => {
           </div>
 
           <div className="col-6 ps-5 mt-sm-5">
-            <div style={{ width: 520, height: 410, position: "relative" }}>
+            <div
+              className="hero-image"
+              style={{
+                width: 520,
+                height: 410,
+                position: "relative",
+              }}
+            >
               <img
                 src={ImagerHero}
                 alt="Room With Couches"
