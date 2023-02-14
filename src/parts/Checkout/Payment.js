@@ -13,13 +13,13 @@ export default function Payment(props) {
   const subTotal = ItemDetails.price * checkout.duration;
   const grandTotal = (subTotal * tax) / 100 + subTotal;
 
-  console.log(data);
+  // console.log(data);
 
   return (
     <Fade>
       <div className="container" style={{ marginBottom: 30 }}>
         <div className="row justify-content-center align-items-center">
-          <div className="col border-end py-5" style={{ marginRight: 80 }}>
+          <div className="col-12 col-lg border-end py-lg-5 px-5 mb-3 mb-lg-0 ">
             <Fade delay={300}>
               <p className="mb-4">Transfer Pembayaran:</p>
               <p>Tax: {tax}%</p>
@@ -30,7 +30,7 @@ export default function Payment(props) {
                 <div className="col-3 text-center">
                   <img src={logoBca} alt="Bank central asia" width={60} />
                 </div>
-                <div className="col">
+                <div className="col-12 col-lg">
                   <dl>
                     <dd>Bank Cental Asia</dd>
                     <dd>2208 1996</dd>
@@ -43,7 +43,7 @@ export default function Payment(props) {
                 <div className="col-3 text-center">
                   <img src={logoMandiri} alt="Bank Mandiri" width={60} />
                 </div>
-                <div className="col">
+                <div className="col-12 col-lg">
                   <dl>
                     <dd>Bank Mandiri</dd>
                     <dd>2208 1996</dd>
@@ -54,7 +54,10 @@ export default function Payment(props) {
             </Fade>
           </div>
 
-          <div className="col-5 py-5" style={{ paddingLeft: 80 }}>
+          <div
+            className="col-12 col-lg-5 py-lg-5 px-5  "
+            style={{ paddingLeft: 80 }}
+          >
             <Fade delay={600}>
               <label htmlFor="proofPayment">Upload Bukti Transfer</label>
               <InputFile

@@ -4,7 +4,10 @@ import Fade from "react-reveal/Fade";
 
 const MostPicked = (props) => {
   return (
-    <section className="container" ref={props.refMostPicked}>
+    <section
+      className="container most-picked-wrapper"
+      ref={props.refMostPicked}
+    >
       <Fade bottom>
         <h4 className="mb-3">Most Picked</h4>
         <div className="container-grid">

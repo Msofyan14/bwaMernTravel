@@ -7,13 +7,13 @@ export default function Footer() {
     <footer>
       <div className="container">
         <div className="row">
-          <div className="col-4">
+          <div className="col-12 col-lg-4">
             <IconText />
             <p className="brand-tagline">
               We kaboom your beauty holiday <br /> instantly and memorable.
             </p>
           </div>
-          <div className="col-2 me-5">
+          <div className="col-12 col-lg-2 me-5">
             <h6 className="mt-2">For Beginners</h6>
             <ul className="list-group list-group-flush">
               <li className="list-group-item">
@@ -33,7 +33,7 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-          <div className="col-2 me-5">
+          <div className="col-12 col-lg-2 me-5">
             <h6 className="mt-2">Explore Us</h6>
             <ul className="list-group list-group-flush">
               <li className="list-group-item">
@@ -53,7 +53,7 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-          <div className="col-2 me-5">
+          <div className="col-12 col-lg-2 me-5">
             <h6 className="mt-2">Connect Us</h6>
             <ul className="list-group list-group-flush">
               <li className="list-group-item">
@@ -77,7 +77,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="row">
-          <div className="col text-center copyrights">
+          <div className="col-12  text-center copyrights">
             Copyright 2019 • All rights reserved • Staycation
           </div>
         </div>

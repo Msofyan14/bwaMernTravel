@@ -10,7 +10,7 @@ export default function Testimony({ data }) {
     <Fade>
       <section className="container">
         <div className="row align-items-center">
-          <div className="col-auto" style={{ marginRight: 60 }}>
+          <div className="col-12 col-lg-auto mb-5 " style={{ marginRight: 60 }}>
             <div
               className="testimonial-hero"
               style={{ margin: "30px 0 0 30px" }}
