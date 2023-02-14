@@ -10,18 +10,22 @@ export default function BookingInformation(props) {
     <Fade>
       <div className="container" style={{ marginBottom: 30 }}>
         <div className="row justify-content-center align-items-center">
-          <div className="col-5 border-end py-5" style={{ paddingRight: 80 }}>
+          <div
+            className="col-12 col-lg-5 border-end py-lg-5 px-5  mb-5 mb-lg-0"
+            style={{ paddingRight: 80 }}
+          >
             <Fade delay={300}>
               <div className="card">
                 <figure className="img-wrapper" style={{ height: 270 }}>
                   <img
                     src={`${process.env.REACT_APP_HOST}/${ItemDetails.imageId[0].imageUrl}`}
                     alt={ItemDetails.title}
-                    style={{ width: 420, height: 270 }}
+                    style={{ height: 270 }}
+                    className="image-cover"
                   />
                 </figure>
                 <div className="row align-items-center">
-                  <div className="col-6">
+                  <div className="col-12 col-lg-6">
                     <div className="meta-wrapper">
                       <h5>{ItemDetails.title}</h5>
                       <span className="text-secondcolor">
@@ -29,7 +33,7 @@ export default function BookingInformation(props) {
                       </span>
                     </div>
                   </div>
-                  <div className="col-auto">
+                  <div className="col-12 col-lg-auto">
                     <span className="text-secondary fw-normal">
                       ${+checkout.duration * ItemDetails.price} USD{" "}
                       <span className="text-secondcolor"> per </span>
@@ -41,7 +45,10 @@ export default function BookingInformation(props) {
               </div>
             </Fade>
           </div>
-          <div className="col-5 py-5" style={{ paddingLeft: 80 }}>
+          <div
+            className="col-12 col-lg-5 py-lg-5 px-5 "
+            style={{ paddingLeft: 80 }}
+          >
             <Fade delay={600}>
               <label htmlFor="firstName">First Name</label>
               <InputText

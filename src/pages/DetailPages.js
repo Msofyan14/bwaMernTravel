@@ -40,12 +40,12 @@ class DetailPages extends Component {
         <FeauturedImage data={page[match.params.id].imageId} />
         <section className="container">
           <div className="row">
-            <div className="col-7 pe-5">
+            <div className="col-12 col-lg-7 pe-5">
               <Fade bottom>
                 <PageDetailDescription data={page[match.params.id]} />
               </Fade>
             </div>
-            <div className="col-5">
+            <div className="col-12 col-lg-5">
               <Fade bottom>
                 <BookingForm
                   itemDetails={page[match.params.id]}

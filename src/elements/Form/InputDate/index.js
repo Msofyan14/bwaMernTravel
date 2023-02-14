@@ -67,7 +67,7 @@ export default function Date(props) {
           onClick={() => setIsShowed(!isShowed)}
         />
         {isShowed && (
-          <div className="date-range-wrapper">
+          <div className="date-range-wrapper ">
             <DateRange
               editableDateInputs={true}
               onChange={datePickerChange}

@@ -18,7 +18,7 @@ const Hero = (props) => {
 
   return (
     <Fade bottom>
-      <section className="container" style={{ marginTop: 80 }}>
+      <section className="container hero-wrapper">
         <div className="row align-items-center justify-content-between ">
           <div className="col-auto pe-5" style={{ width: 530 }}>
             <h1 className="fw-bold lh-base mb-3">
@@ -39,7 +39,7 @@ const Hero = (props) => {
               Show Me Now
             </Button>
 
-            <div className="row" style={{ marginTop: 80 }}>
+            <div className="row icon-wrapper">
               <div className="col-auto">
                 <img
                   width="36"
@@ -52,7 +52,7 @@ const Hero = (props) => {
                   <span className="text-secondcolor fw-light">Travelers</span>
                 </h6>
               </div>
-              <div className="col-auto px-0 px-lg-5 ">
+              <div className="col-auto px-3 px-lg-5 ">
                 <img
                   width="36"
                   height="36"
@@ -79,15 +79,8 @@ const Hero = (props) => {
             </div>
           </div>
 
-          <div className="col-6 ps-5 mt-sm-5">
-            <div
-              className="hero-image"
-              style={{
-                width: 520,
-                height: 410,
-                position: "relative",
-              }}
-            >
+          <div className="col-6 ps-5 mt-sm-5 hero-image-wrapper">
+            <div className="hero-image-placeholder">
               <img
                 src={ImagerHero}
                 alt="Room With Couches"
