@@ -28,7 +28,12 @@ const MostPicked = (props) => {
                             : ""
                         }
                         alt={item.name}
-                        style={{ width: 420 }}
+                        // style={
+                        //   index === 0
+                        //     ? { height: 400 }
+                        //     : { height: 200, width: 450 }
+                        // }
+                        className="image-cover"
                       />
                     </figure>
                     <div className="meta-wrapper">

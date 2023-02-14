@@ -18,7 +18,7 @@ const Categories = ({ data }) => {
                 >
                   {" "}
                   <Fade bottom delay={300 * index2}>
-                    <div className="card ">
+                    <div className="card">
                       {item.isPopular && (
                         <div className="tag text-white">
                           Popular <span className="fw-light">Choice</span>
@@ -32,8 +32,8 @@ const Categories = ({ data }) => {
                               : ""
                           }
                           alt={item.name}
-                          className="img-fluid"
-                          style={{ height: 180, width: "100%" }}
+                          className="image-cover"
+                          // style={{ width: "100%" }}
                         />
                       </figure>
                       <div className="meta-wrapper">

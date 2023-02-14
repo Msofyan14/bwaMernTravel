@@ -55,6 +55,9 @@
 
 @import "mixins/breakpoints";
 
+@include media-breakpoint-up(sm) {
+}
+
 a {
   text-decoration: none;
 }
@@ -121,6 +124,7 @@ section {
 }
 
 .card {
+  overflow: hidden;
   border-radius: 15px;
   &.bordered {
     border: 1px solid $gray-200;
@@ -144,7 +148,7 @@ section {
   .img-wrapper {
     height: 100%;
     margin-bottom: 0;
-    border-radius: 0.9375;
+    border-radius: 15px;
     overflow: hidden;
   }
 
