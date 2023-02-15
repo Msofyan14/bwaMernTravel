@@ -48,6 +48,7 @@ export default function File(props) {
           defaultValue={FileName}
           placeholder={placeholder}
           className={["form-control", inputClassName].join(" ")}
+          required
         />
         {append && (
           <div className="input-group-append bg-secondary">
@@ -66,7 +67,7 @@ File.defaultProps = {
 File.propTypes = {
   name: propTypes.string.isRequired,
   accept: propTypes.string.isRequired,
-  value: propTypes.string.isRequired,
+  // value: propTypes.string.isRequired,
   onChange: propTypes.func.isRequired,
   prepend: propTypes.oneOfType([propTypes.number, propTypes.string]),
   append: propTypes.oneOfType([propTypes.number, propTypes.string]),
