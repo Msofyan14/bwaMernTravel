@@ -5,7 +5,7 @@ import Fade from "react-reveal/Fade";
 const Activities = ({ data }) => {
   if (data.length === 0) return null;
   return (
-    <section className="container">
+    <section className="container" style={{ position: "relative", zIndex: -1 }}>
       <Fade bottom>
         <h4 className="mb-3 fw-medium">Activities</h4>
         <div className="container-grid">
@@ -31,8 +31,8 @@ const Activities = ({ data }) => {
                             : ""
                         }
                         alt={item.name}
-                        className="img-cover"
-                        style={{ maxWidth: 300 }}
+                        className="image-cover"
+                        // style={{ maxWidth: 300 }}
                       />
                     </figure>
                     <div className="meta-wrapper">
