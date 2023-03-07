@@ -6,7 +6,7 @@ import ImagerHero from "assets/images/img-hero.jpg";
 import ImageHero_ from "assets/images/img-hero-frame.jpg";
 import Button from "elements/Button";
 import formatNumber from "utils/formatNumber";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 
 const Hero = (props) => {
   const showMostPicked = () => {
@@ -17,7 +17,7 @@ const Hero = (props) => {
   };
 
   return (
-    <Fade bottom>
+    <Fade bottom delay={500}>
       <section className="container hero-wrapper">
         <div className="row align-items-center justify-content-between ">
           <div className="col-auto pe-5" style={{ width: 530 }}>

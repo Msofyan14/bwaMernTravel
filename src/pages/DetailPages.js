@@ -7,7 +7,7 @@ import BookingForm from "parts/BookingForm";
 import Activities from "parts/Activities";
 import Testimony from "parts/Testimony";
 import Footer from "parts/Footer";
-import Fade from "react-reveal";
+import { Fade } from "react-awesome-reveal";
 
 import { connect } from "react-redux";
 import { checkoutBooking } from "store/actions/checkout";

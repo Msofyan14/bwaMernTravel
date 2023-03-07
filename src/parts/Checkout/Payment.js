@@ -1,5 +1,6 @@
 import React from "react";
-import Fade from "react-reveal";
+import { Fade } from "react-awesome-reveal";
+
 import InputText from "elements/Form/InputText";
 import InputFile from "elements/Form/InputFile";
 
