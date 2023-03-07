@@ -12,3 +12,4 @@ export const fetchPage = (url, page) => (dispatch) => {
     return response.data;
   });
 };
+
