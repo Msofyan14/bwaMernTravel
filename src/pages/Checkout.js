@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 import { connect } from "react-redux";
 
 import Header from "parts/Header";

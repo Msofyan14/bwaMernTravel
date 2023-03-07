@@ -1,6 +1,6 @@
 import Button from "elements/Button";
 import React from "react";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 
 const Categories = ({ data }) => {
   return data.map((category, index1) => {

@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import BrandIcon from "parts/IconText";
 import Button from "elements/Button";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
+
 const Header = (props) => {
   const [isActive, setIsActive] = useState(false);
   const getNavLinkClass = (path) => {
