@@ -18,6 +18,8 @@ class DetailPages extends Component {
     window.title = "Detail Page";
     window.scrollTo(0, 0);
 
+    // console.log(this.props);
+
     if (!this.props.page[this.props.match.params.id])
       this.props.fetchPage(
         `/detail-page/${this.props.match.params.id}`,
